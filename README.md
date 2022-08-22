@@ -8,7 +8,7 @@ git subtree add -P bin/ https://github.com/mouyong/monorepo-split.git master
 
 ## 使用说明
 
-1. 分离子目录到仓库
+### 1. 分离子目录到仓库
 
 更新 `split.sh`的变量：`CURRENT_BRANCH`
 
@@ -26,7 +26,7 @@ split 'extensions/plugins/DcatSaas' dcat-saas
 执行分离: `bash ./bin/split.sh`
 
 
-2. 发布 tag
+### 2. 发布 tag
 
 更新 `release.sh`的变量：`RELEASE_BRANCH`
 ```bash
