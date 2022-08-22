@@ -3,7 +3,7 @@
 ## 添加 monorepo-split
 
 ```bash
-git subtree add -P bin/ https://github.com/mouyong/monorepo-split.git master
+git subtree add -P bin/ https://ghproxy.com/https://github.com/mouyong/monorepo-split.git master
 ```
 
 ## 使用说明
