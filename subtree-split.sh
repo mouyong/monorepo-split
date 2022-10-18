@@ -9,6 +9,7 @@ function split()
 {
     git subtree split -P $1 -b $2
     git push $2 "$2:refs/heads/$CURRENT_BRANCH" -f
+    git remote remove $2
     git branch -D $2
 }
 
