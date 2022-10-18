@@ -9,7 +9,8 @@ function split()
 {
     SHA1=`./splitsh-lite --prefix=$1`
     git push $2 "$SHA1:refs/heads/$CURRENT_BRANCH" -f
-    git remote remove $2
+    git remote remove $2 || true
+    git branch -D $2 || true
 }
 
 function remote()
