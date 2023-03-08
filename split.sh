@@ -3,7 +3,7 @@
 set -e
 set -x
 
-CURRENT_BRANCH="9.x"
+CURRENT_BRANCH="master"
 
 function split()
 {
@@ -22,5 +22,7 @@ git pull origin $CURRENT_BRANCH || true
 
 
 #remote foundation git@github.com:mouyong/laravel-foundation.git
+remote LaravelConfig git@github.com:mouyong/laravel-config.git
 
 #split 'src/Illuminate/Foundation' foundation
+split 'LaravelConfig' LaravelConfig
