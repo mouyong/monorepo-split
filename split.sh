@@ -5,6 +5,11 @@ set -x
 
 CURRENT_BRANCH="master"
 
+SPLITSH_LITE_BIN=splitsh-lite
+if [ ! -x $SPLITSH_LITE_BIN ]; then
+    SPLITSH_LITE_BIN=./bin/splitsh-lite
+fi
+
 function split()
 {
     SHA1=`./splitsh-lite --prefix=$1`
