@@ -9,6 +9,7 @@ function remote()
     git remote remove $1 || true
 }
 
+
 # example
 remote auth git@github.com:illuminate/auth.git
 remote broadcasting git@github.com:illuminate/broadcasting.git
