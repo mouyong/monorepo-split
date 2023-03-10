@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# @link https://github.com/splitsh/lite/issues/65#issuecomment-1271447886
 # this shell script run fails on github actions: @see https://github.com/plugins-world/packages/actions/runs/4380027106/jobs/7666627198#step:4:120
 
 set -e
