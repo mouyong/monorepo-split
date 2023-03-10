@@ -77,4 +77,6 @@ function release()
     )
 }
 
+
 # release dcat-saas git@github.com:mouyong/dcat-saas.git
+release MarketManager git@github.com:mouyong/MarketManager.git
