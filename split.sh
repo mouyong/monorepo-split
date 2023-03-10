@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# this shell script run fails on github actions: @see https://github.com/plugins-world/packages/actions/runs/4380027106/jobs/7666627198#step:4:120
+
 set -e
 set -x
 
