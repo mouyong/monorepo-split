@@ -11,6 +11,7 @@ git subtree add -P bin/ https://ghproxy.com/https://github.com/mouyong/monorepo-
 ### 1. 分离子目录到仓库
 
 更新 `subtree-split.sh`的变量：`CURRENT_BRANCH`
+
 **注：使用 subtree 方式进行分离，见：https://github.com/mouyong/monorepo-split/blob/master/.github/workflows/split.yml#L41**
 
 ```bash
