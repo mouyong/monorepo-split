@@ -25,7 +25,7 @@ remote dcat-saas git@github.com:mouyong/dcat-saas.git
 split 'extensions/plugins/DcatSaas' dcat-saas
 ```
 
-执行分离: `bash ./bin/split.sh`
+执行分离: `bash ./bin/subtree-split.sh`
 
 
 ### 2. 发布 tag
