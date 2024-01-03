@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -e
+set -ex
 
 # mkdir -p apps
 # zip -r apps/LaravelSaas.zip LaravelSaas -x "*node_modules/*" -x "*vendor/*"
